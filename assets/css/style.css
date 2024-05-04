@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+.principal{
+    display: flex;
+    height: 100vh;
+}
+.chat{
+    width: 25%;
+    background-color: #E8EBE4;
+    overflow: auto;
+}
+.caja{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    height: 9vh;
+    padding: 2vh;
+    padding-left: 4vh;
+}
+.individual{
+    display: flex;
+    height: 10vh;
+    gap: 1rem;
+}
+.imagen{
+    border-radius: 200px;
+    margin: 5px;
+}
+.texto{
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    h2{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        margin: 0;
+        padding: 0;
+        color: #BEC1BB;
+        font-size: 14px;
+    }
+}
+.iconos{
+    margin-top: 30px;
+    margin: 20px;
+    margin-left: 5px;
+}
+.Nuevo_chat{
+    padding: 30px;
+    height: 10vh;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.boton{
+    color: #E8EBE4;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: #7681ad;
+    border-radius: 5px;
+    border: 1px;
+    border-color: #D4DCFF;
+    border-style: solid;
+}
+.panel{
+    width: 75%;
+    height: 100%;
+}
+.contenido{
+    img{
+        width: 500px;
+    }
+    text-align: center; 
+    padding-top: 15vh;
+}
