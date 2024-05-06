@@ -10,13 +10,29 @@ body{
     background-color: #E8EBE4;
     overflow: auto;
 }
+.chat::-webkit-scrollbar{
+    width: 5px;
+    background-color: #ffffff;
+}
+.chat::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color:#D4DCFF;
+    border-radius: 10px;
+}
+.chat::-webkit-scrollbar-thumb:hover{
+    background-color: #7681ad;
+}
 .caja{
+
     border: 1px;
     border-color: black;
     border-style: solid;
     height: 9vh;
     padding: 2vh;
     padding-left: 4vh;
+}
+.caja:hover{
+    background-color: #ffffff;
 }
 .individual{
     display: flex;
@@ -55,18 +71,22 @@ body{
     border-style: solid;
 }
 .boton{
-    color: #E8EBE4;
+    color: #000000;
     font-size: 25px;
     padding: 10px;
     padding-left: 35px;
     padding-right: 35px;
     margin-left: 40px;
     margin-top: 10px;
-    background-color: #7681ad;
+    background-color: #D4DCFF;
     border-radius: 5px;
     border: 1px;
     border-color: #D4DCFF;
     border-style: solid;
+}
+.boton:hover{
+    background-color: #7681ad;
+    color: white;
 }
 .panel{
     width: 75%;
